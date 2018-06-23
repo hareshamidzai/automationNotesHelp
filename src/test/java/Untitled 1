@@ -1,0 +1,40 @@
+06/23/2018
+----------
+
+Selenium WebDriver class.
+
+https://forms.zohopublic.com/murodil/form/JobApplicationForm/formperma/kOqgtfkv1dMJ4Df6k4_mekBNfNLIconAHvfdIk3CJSQ
+
+AUT -> Application Under Test.
+
+Field -> Number -> Range -> 0 --> 150
+=====================================
+
+Epic > Feature > Story > Scenario/Test case
+
+Epic > Story > Test Cases/Scenario
+
+Epic 01: SDET Job Application
+
+User Story 001 ->
+ As an Applicant, I should be able to provide my personal
+ information so that Employer can contact me.
+
+User Story 002 ->
+   As an Applicant, I should be able to describe my skills
+   so that Employer can match my skills for the position.
+
+   
+Product backlog: Epic 01, Story 001, Story 002  
+
+Story 001 > P1
+Story 002 > P2
+
+Sprint #1:
+ Sprint backlog: Story 001
+ Length: 2 weeks
+ Story points(Fibonacci): 5
+ 
+1,2,3,5,8,13,21
+One point is 8 hours.
+=======================
