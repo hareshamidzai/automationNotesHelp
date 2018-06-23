@@ -32,8 +32,13 @@ String email = faker.name().firstName() + "@yahoo.com";
 		driver.get(url);
 	String name1 = faker.name().firstName();
 	String LastName = faker.name().lastName();
+	String Dob = "12-12-1985";
 	driver.findElement(By.name("Name_First")).sendKeys(name1 + Keys.ENTER +
-		LastName)	;
+		LastName + Keys.TAB + Keys.ARROW_LEFT + Keys.ARROW_LEFT)	;
+	
+	driver.findElement(By.id("Date-date")).sendKeys(Dob + Keys.TAB);
+	
+	
 	
 
 }}
